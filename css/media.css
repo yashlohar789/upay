@@ -1,0 +1,124 @@
+@media(max-width:1200px){
+    html{
+        font-size: 14px;
+    }
+}
+
+@media(max-width:1024px){
+    html{
+        font-size: 12px;
+    }
+}
+
+@media(max-width:1000px){
+    html{
+        font-size: 14px;
+    }
+
+    .open{
+        display: block;
+        cursor: pointer;
+    }
+
+    .hero{
+        align-content: center;
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .btn-bar,.navbar{
+        display: none;
+    }
+
+    .text{
+        max-width: 100%;
+    }
+
+    .content{
+        width:22rem;
+    }
+
+    .work{
+        width: 45%;
+        margin-bottom: 10rem;
+    }
+
+    .works{
+        align-content: space-between;
+    }
+
+    .support-section .hero{
+        flex-direction: column-reverse;
+    }
+
+    .hero-text,.hero-image{
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .hero-image img{
+        width: 70%;
+        display: block;
+        margin: auto;
+    }
+
+    .padding{
+        padding: 2rem;
+    }
+
+    .footer-section .footer-container{
+        padding: 0;
+    }
+}
+
+@media(max-width:768px){
+
+    html{
+        font-size: 12px;
+    }
+
+    .hero-heading{
+        font-weight: 600;
+        font-size: 3rem;
+        line-height: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .partners .container,.message .container{
+        padding: 0;
+    }
+
+    .contact-section .hero-heading{
+        font-weight: 400;
+        font-size: 2rem;
+        line-height: 2.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .brand{
+        width: 2rem;
+    }
+
+    .works{
+        justify-content: center;
+        align-content: center;
+    }
+
+    .work{
+        width: 70%;
+    }
+
+    .frames{
+        justify-content: center;
+        align-content: center;
+    }
+
+    .frame{
+        width: 100%;
+    }
+
+    .links{
+        width: 100%;
+        margin-top: 2rem;
+    }
+}
